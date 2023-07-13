@@ -11,6 +11,11 @@ Task
 - User will require to enter lat and lon in the inputs and chose detailing type according to API.
 - Unit and Integration Tests
 
+Video Recording
+--------
+
+https://drive.google.com/file/d/1pz8mNBd4RE3-ff21p1-kctSJ1d0Pi-Sk/view?usp=sharing
+
 ## How to run
 ```bash
 # Fetch the repo using git
@@ -45,6 +50,12 @@ http://127.0.0.1:8000/api/v1/get-weatherforecast-data
 - URL: /api/v1/get-weatherforecast-data
 - Request Type: GET
 - Parameter: lon, lat, detailing_type
+
+## API Details:
+--------
+Deployed API: ```https://testusersaasd.pythonanywhere.com/api/v1/get-weatherforecast-data?lat=33.42&lon=-94.04&detailing_type=Current weather```
+
+You can change lat,lon, or detailing_type in URL.
 
 Note:
 --------
